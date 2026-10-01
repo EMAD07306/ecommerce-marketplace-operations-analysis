@@ -1,0 +1,8 @@
+file,purpose,primary_key
+orders.csv,One row per marketplace order,order_id
+order_items.csv,Products and quantities contained in each order,order_item_id
+products.csv,"Product master data with category, price, and cost",product_id
+shipments.csv,Fulfillment and delivery performance for completed orders,shipment_id
+returns.csv,"Returned order items, reasons, and refund amounts",return_id
+warehouses.csv,Fulfillment center reference data,warehouse_id
+carriers.csv,Shipping carrier reference data,carrier_id
